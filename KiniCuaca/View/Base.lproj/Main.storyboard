@@ -34,7 +34,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="location.square.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="updateCurrentLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k6S-5n-19g"/>
+                                    <action selector="updateCurrentLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVr-lK-mVL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlE-3E-uaZ">
@@ -82,10 +82,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="Kdz-Fo-v24" id="HcH-ln-MQF"/>
-                        <outlet property="conditionImageView" destination="aie-fS-ecj" id="qcZ-Ma-o8y"/>
-                        <outlet property="searchTextField" destination="if3-RM-Tst" id="sbP-02-oMp"/>
-                        <outlet property="temperatureLabel" destination="Is2-hn-PM9" id="wi0-1a-9qm"/>
+                        <outlet property="cityLabel" destination="Kdz-Fo-v24" id="djb-GI-kSr"/>
+                        <outlet property="conditionImageView" destination="aie-fS-ecj" id="Ae1-PV-Efj"/>
+                        <outlet property="searchTextField" destination="if3-RM-Tst" id="4xG-h7-jNG"/>
+                        <outlet property="temperatureLabel" destination="Is2-hn-PM9" id="Suw-DG-csZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
