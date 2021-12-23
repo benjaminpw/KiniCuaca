@@ -14,6 +14,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet var temperatureLabel: UILabel!
     @IBOutlet var cityLabel: UILabel!
     @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var weatherConditionText: UILabel!
     
     var weatherManager = WeatherManager()
     var locationManager = CLLocationManager()
@@ -102,6 +103,8 @@ extension WeatherViewController: WeatherManagerDelegate {
             self.temperatureLabel.text = weather.tempString
             self.cityLabel.text = weather.cityName
             self.conditionImageView.image = UIImage(systemName: weather.conditionName)
+            self.weatherConditionText.text = weather.conditionName
+            
         }
         print(weather.temperature)
     }
