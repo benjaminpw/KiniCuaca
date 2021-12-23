@@ -13,6 +13,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet var conditionImageView: UIImageView!
     @IBOutlet var temperatureLabel: UILabel!
     @IBOutlet var cityLabel: UILabel!
+    @IBOutlet var timeLabel: UILabel!
     
     var weatherManager = WeatherManager()
     var locationManager = CLLocationManager()
@@ -33,6 +34,15 @@ class WeatherViewController: UIViewController {
         
         weatherManager.delegate = self
         searchTextField.delegate = self
+        
+        let currentDate = Date()
+        let formatter = DateFormatter()
+        formatter.timeStyle = .medium
+        formatter.dateStyle = .long
+        
+        let dateString = formatter.string(from: currentDate)
+        
+        timeLabel.text = dateString
     }
 }
 
@@ -43,6 +53,16 @@ extension WeatherViewController: UITextFieldDelegate {
     @IBAction func searchPressed(_ sender: Any) {
         searchTextField.endEditing(true)
         print(searchTextField.text!)
+        
+        // menampilkan current date and time by button
+        let currentDate = Date()
+        let formatter = DateFormatter()
+        formatter.timeStyle = .medium
+        formatter.dateStyle = .long
+        
+        let dateString = formatter.string(from: currentDate)
+        
+        timeLabel.text = dateString
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
