@@ -72,15 +72,6 @@ extension WeatherViewController: UITextFieldDelegate {
         return true
     }
     
-//    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-//        if textField.text != "" {
-//            textField.placeholder = "City"
-//            return true
-//        } else {
-//            textField.placeholder = "Enter City Name"
-//            return false
-//        }
-//    }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         
