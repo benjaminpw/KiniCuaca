@@ -12,4 +12,8 @@ KiniCuaca is an app that can provide:
 ## Third Party API Weather
 [Open Weather.api](https://openweathermap.org)
 
+## Screenshot
+
+![](images/Result_ss.png)
+
 
