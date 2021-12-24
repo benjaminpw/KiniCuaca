@@ -16,4 +16,8 @@ KiniCuaca is an app that can provide:
 
 <img src="Default_ss.png" width=200>  <img src="InputCity_ss.png" width=200> <img src="Result_ss.png" width=200>
 
+## Xcode & Swift Version
++ Xcode Version : 13.2.1
++ Swift Version : Swift 5.0
+
 
