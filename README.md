@@ -14,6 +14,6 @@ KiniCuaca is an app that can provide:
 
 ## Screenshot
 
-![](images/Result_ss.png)
+<img src="Default_ss.png" width=200>  <img src="InputCity_ss.png" width=200> <img src="Result_ss.png" width=200>
 
 
